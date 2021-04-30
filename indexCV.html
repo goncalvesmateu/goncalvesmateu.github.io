@@ -1,0 +1,133 @@
+
+<!doctype html>
+<html>
+	    <head> 
+		    <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="chrome=1">
+			<link rel="stylesheet" href="hamburguer.css">
+			
+			<style> 
+		  
+				body {
+				 background-color: #FFFFFF; <!-- Alternatives are: #FFFAFA #000000-->
+				 margin: 0 5%;
+				 font-family:  Lucida Sans Unicode; <!-- Alternatives are: Courier New, BentonSans,Lucida Sans Unicode -->
+				}
+				 
+				h1 {
+				  color: #000000
+				  font-size: 1.5em
+				  text-align: center;
+				  font-family: Lucida Sans Unicode;
+				  font-weight: normal;
+				 <!--text-transform: uppercase; -->
+				 <!-- border-bottom: 2px solid 	#F5F5F5;-->
+				  margin-top: 10px;
+				  margin-left: 0 px; 
+				}
+				 
+				h2 {
+				  color: #000000;
+				  font-size: 1.5em;
+				}
+				
+				.row{
+				 display: flex; 
+				 margin: 0 auto;
+				 flex-flow: row wrap;
+				}
+				.coluna-30 {
+				width: 30%;
+				margin-left: 0%; <!-- I chaged here from 5 to 0 %-->
+				}
+				.coluna-40 {
+				width: 40%;
+				}
+				.coluna-25 {
+				width: 25%;
+				}
+				
+				.floating {
+				float:right;
+				width:42px;
+				height:42px;
+				}
+				
+				.center {
+				margin: 0 auto;
+				width: 75%; <!-- Valor da Largura -->
+				}
+				
+				a {				    
+				   text-decoration:none;color: blue;
+				}
+				a:hover {
+                         text-decoration: underline;
+                }                
+				
+			</style>
+		  
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="chrome=1">
+			<title>Mateus Gonçalves</title>
+
+			<link rel="stylesheet" href="styles.css">
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+				
+	    </head>
+		
+	    <body> 
+			<div class="wrapper">
+				<div class="row">
+					<div class="coluna-40">
+						<div class="center"> 
+							<h1>Mateus Gonçalves</h1>
+						</div>
+						
+
+						<div class="center" style="margin-left:100px;">
+							<img src= "me.png" style= "width:170px; height:230px; border-radius:45%;" alt="Mateus" title="Eu" >
+						</div>
+						
+					
+					</div>
+					
+					<div class="coluna-30">
+					
+					    <h2> CV </h2>
+						<h3> Education </h3>
+							<ul style="list-style-type:square">
+							  <li>B.S. in Agronomy, Universidade Federal de Viçosa, Brazil, 2017</li>
+							  <p></p>
+							  <li>M.S. in Genetics and Plant Breeding, Universidade Federal de Viçosa, Brazil, 2019</li>
+							   <p><strong>Advisor:</strong> <a href ="https://luizpeternelli.github.io/"target ="_blank">Luiz Alexandre Peternelli</a> </p>
+							   <strong>Comitee members:</strong> <a href ="http://morotalab.org/"target ="_blank">Gota Morota</a>,<a href = "https://www.researchgate.net/profile/Paulo-Mafra-De-Almeida-Costa"target = "_blank">Paulo Mafra de Almeida Costa</a>, <a href = "https://www.researchgate.net/profile/Marcio-Barbosa-4"target = "_blank">Márcio Henrique Pereira Barbosa</a>, <a href = "http://www.deq.ufv.br/area/professor/27" target = "_blank">Reinaldo Francisco Teófilo</a>  </p>
+							</ul>
+							
+							
+					</div>
+					
+					
+						<div class="coluna-25">
+								<div class="p-menu1">
+									<nav id="navbar" class="navigation" role="navigation">
+										<input id="toggle1" type="checkbox" />
+										<label class="hamburger1" for="toggle1">
+										  <div class="top"></div>
+										  <div class="meat"></div>
+										  <div class="bottom"></div>
+										</label>
+									  
+										<nav class="menu1">
+										  <a class="link1" href="index.html">BACK</a>
+										</nav>
+									</nav>
+								</div>
+						</div>
+				</div>
+				  
+			</div>
+			
+	    </body>
+</html>
