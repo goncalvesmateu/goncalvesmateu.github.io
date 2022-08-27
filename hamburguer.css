@@ -92,3 +92,10 @@
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 850px;
+  }
+}
